@@ -34,13 +34,17 @@ elif temp == 68:
 else:
     print('cold')
  """
+thing = input ("")
+
 
 Bill_total = input ("How was your service?")
-if Bill_total == "Horrible":
+if Bill_total == "my service was Horrible":
     print ("no tip")
-if Bill_total == "bad":
+if Bill_total == "my service was bad":
     print ("low tip")
-if Bill_total == "good":
+if Bill_total == "my service was good":
     print ("average tip")
-if Bill_total == "Amazing":
+if Bill_total == "my service was Amazing":
     print ("High tip")
+for i in Bill_total:
+    print(i)

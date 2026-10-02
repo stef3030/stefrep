@@ -1,11 +1,12 @@
-int(Bill) = ("What was the meal total")
-tip = input ("Rate your service")
-total = (Bill*int)
+Bill_total = float (input ("What was the meal total"))
+tip = input ("How was your service?")
 if tip == "bad":
-    input (int(1.0))
-if tip == "okay":
-    input (int(1.15))
-if tip == "good":
-    input (int(1.20))
-if tip == "great":
-    input (int(1.25))
+    input (1.0)
+elif tip == "okay":
+    input (1.15)
+elif tip == "good":
+    input (1.20)
+elif tip == "great":
+    input (1.25)
+
+print ((Bill_total*tip)+Bill_total)
